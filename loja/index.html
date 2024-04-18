@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EletroSilva</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!--box icons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+</head>
+<body>
+  <!-- Scroll Top -->
+  <a href="#" class="scroll-top"><i class='bx bx-up-arrow-alt'></i></a>
+  <!-- header -->
+    <header>
+      <div class="nav container">
+
+        <!-- menu icon -->
+        <div class="menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+        <!-- nav list -->
+        <ul class="navbar">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#products">Produtos</a></li>
+        </ul>
+
+        <!-- logo -->
+        <a href="#" class="logo">
+          EletroSilva<span>.</span>
+        </a>
+
+        <!-- nav icons -->
+        <div class="nav-icons">
+          <i class='bx bx-cart-alt' id="cart-icon"></i>
+          <i class='bx bx-user' id="user-icon"></i>
+        </div>
+
+        <!-- cart -->
+        <div class="cart">
+          <div class="cart-content">
+
+            <!-- Box  1 -->
+            <div class="cart-box">
+                <img src="img/products1.png" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Soft Furniture</div>
+                    <div class="cart-price">R$159.99</div>
+                    <input type="number" value="1" class="cart-quantity">
+              </div>
+              <i class='bx bx-trash cart-remove'></i>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="cart-box">
+              <img src="img/popular2.png" alt="" class="cart-img">
+              <div class="detail-box">
+                  <div class="cart-product-title">Soft Furniture</div>
+                  <div class="cart-price">R$159.99</div>
+                  <input type="number" value="1" class="cart-quantity">
+              </div>
+              <i class='bx bx-trash cart-remove'></i>
+            </div>
+
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">R$0</div>
+            </div>
+         <button type="button" class="btn-buy">Prosseguir Pagamento</button>
+
+          </div>
+        </div>
+        <!-- login form -->
+        <div class="login-form">
+          <!-- Form -->
+          <form action="">
+            <h2>Entre para Continuar</h2>
+            <input type="email" name="" placeholder="exemple@email.com" required>
+            <input type="password" name="" placeholder="Senha" required>
+            <a href="#">Esqueceu a Senha?</a>
+            <input type="submit" value="Entrar" class="btn">
+            <a href="#">Criar Conta</a>
+          </form>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Home section start -->
+    <section class="home container" id="home">
+      <div class="home-text">
+        <h1><span>Materiais Eletrônicos</span> <br>Para a sua vida</h1>
+        <p>Nós estamos aqui para entregarmos<br>tecnologia, inovação e realização de sonhos!
+        </p>
+        <a href="#" class="btn">Compre Agora!</a>
+      </div>
+      <!-- Home Imagem -->
+      <div class="home-img">
+        <img src="img/Sofa.png" alt="">
+      </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- Popular Section Start -->
+    <section class="popular container" id="popular">
+      <div class="heading">
+        <h2>Popular</h2>
+        <a href="#">See All</a>
+      </div>
+
+      <!-- Popular Content -->
+      <div class="popular-content">
+        <!-- Box 1 -->
+          <div class="box">
+            <img src="img/popular1.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="box">
+            <img src="img/popular2.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="box">
+            <img src="img/popular3.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+          <!-- Box 4 -->
+          <div class="box">
+            <img src="img/popular4.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+      </div>
+    </section>
+    <!-- Popular Section End -->
+
+    <!-- About Section Start -->
+    <section class="about container" id="about">
+      <div class="about-img">
+        <img src="img/about.png" alt="">
+      </div>
+      <!-- About Text -->
+      <div class="about-text">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo(a) à EletroSilva! Somos uma loja virtual dedicada a oferecer os melhores produtos eletrônicos com qualidade premium e atendimento excepcional. Nossa equipe apaixonada pela tecnologia está aqui para ajudá-lo a encontrar exatamente o que você precisa. Obrigado por escolher a EletroSilva. Estamos aqui para tornar sua experiência de compra mais fácil e satisfatória.</p>
+
+        <div class="features">
+          <i class='bx bxs-checkbox-checked'><span>Entrega para todo o Brasil</span></i>
+          <i class='bx bxs-checkbox-checked'><span>Produtos de Qualidade</span></i>
+          <i class='bx bxs-checkbox-checked'><span>Atendimento 24h</span></i>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Products Section Start -->
+    <section class="products container" id="products">
+      <div class="heading">
+        <h2>Nossos Produtos</h2>
+        <a href="produtos.html">Ver tudo</a>
+      </div>
+      <!-- Products Content -->
+      <div class="products-content">
+        <!-- Box 1 -->
+          <div class="box">
+            <img src="img/products1.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 2 -->
+          <div class="box">
+            <img src="img/products2.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 3 -->
+          <div class="box">
+            <img src="img/products3.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 4 -->
+          <div class="box">
+            <img src="img/products4.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 5 -->
+          <div class="box">
+            <img src="img/products5.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 6 -->
+          <div class="box">
+            <img src="img/products6.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 7 -->
+          <div class="box">
+            <img src="img/products7.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+        <!-- Box 8 -->
+          <div class="box">
+            <img src="img/products8.png" alt="" class="product-img">
+            <div class="box-text">
+              <div class="title-price">
+                <h3 class="product-title">Soft Furniture</h3>
+                <span class="price">R$150</span>
+              </div>
+              <i class='bx bx-cart-alt add-cart'></i>
+            </div>
+          </div>
+
+      </div>
+    </section>
+    <!-- Products Section End -->
+
+    <!-- Newsletter Section Start -->
+    <section class="newsletter">
+      <div class="newsletter-content container">
+        <div class="newsletter text">
+          <h2>CADASTRE-SE AGORA!</h2>
+          <p>Cadastra-se e receba nossas promoções pelo seu email.</p>
+        </div>
+        <form action="">
+          <input type="email" name="" id="" placeholder="Digite seu email..." required>
+          <input type="submit" value="Cadastrar" class="btn">
+        </form>
+      </div>
+
+    </section>
+    <!-- Newsletter Section End -->
+
+    <!-- Footer Start -->
+    <section class="footer container">
+      <div class="footer-box">
+        <h3>Nossa Empresa</h3>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Blog</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Categorias Populares</h3>
+        <a href="#">Bedroom</a>
+        <a href="#">Living Rooms</a>
+        <a href="#">Outdoor</a>
+        <a href="#">Kitchen</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Mais Informações</h3>
+        <a href="#">Envio</a>
+        <a href="#">Entregas e Retornos</a>
+        <a href="#">Contate-Nos</a>
+      </div>
+
+      <div class="footer-box">
+        <h3>Redes Sociais</h3>
+        <div class="social">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+
+    </section>
+    <!-- Footer End -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169; Porter All Right Reserved</p>
+    </div>
+
+    <!-- Link do JS -->
+    <script src="main.js"></script>
+  
+</body>
+</html>
